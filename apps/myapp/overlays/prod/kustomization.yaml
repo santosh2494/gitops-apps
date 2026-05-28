@@ -1,0 +1,10 @@
+resources:
+- ../../base
+
+images:
+- name: docker.io/yourdockerhub/myapp
+  newTag: "1"
+
+replicas:
+- name: myapp
+  count: 3
