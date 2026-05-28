@@ -10,7 +10,7 @@ spec:
 
   source:
     repoURL: https://github.com/santosh2494/gitops-apps.git
-    targetRevision: main
+    targetRevision: master
     path: apps/myapp/overlays/dev
 
   destination:
