@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: docker.io/YOUR_DOCKERHUB/myapp:latest
+        image: docker.io/santosh/myapp:latest
 
         ports:
         - containerPort: 5000
